@@ -1,0 +1,6 @@
+domain
+hasMX
+hasSPF
+spfRecord
+hasDMARC
+dmarcRecord
