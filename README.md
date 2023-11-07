@@ -27,33 +27,37 @@ Make sure you have Go installed. If not, you can download it https://golang.org/
    cd email-verifier-tool
 
 2. Build the application:
+    ```bash
     go build email_verifier.go
 
 3.Run the tool:
+   ```
    ./email_verifier
+   ```
 
-Usage
--Enter an email address when prompted.
--The tool will validate the email format.
--If the email is valid, it will extract the domain name.
--It will perform MX, SPF, and DMARC lookups and display the results.
+## Usage
+   + Enter an email address when prompted.
+   + The tool will validate the email format.
+   + If the email is valid, it will extract the domain name.
+   + It will perform MX, SPF, and DMARC lookups and display the results.
 
-Dependencies
+## Dependencies
 This project relies on the following Go packages:
 
--log
--bufio
--os
--strings
--badoux/checkmail for email validation
++ log
++ bufio
++ os
++ strings
++ badoux/checkmail for email validation
 
 You can install external dependencies using go get.
 
-License
+## License
 This project is licensed under the MIT License.
 
-Acknowledgments
-The Go programming language and its net package for simplifying network-related tasks.
-badoux/checkmail for email validation.
-Contact
+## Acknowledgments
++ The Go programming language and its net package for simplifying network-related tasks.
++ badoux/checkmail for email validation.
+
+## Contact
 If you have questions or suggestions, feel free to contact us at amarjitaa@gmail.com.
